@@ -1,0 +1,12 @@
+# Latent-diffusion (LDM) + evaluation track.
+# Create a venv that inherits the conda env's PyTorch (torch 2.1.2 / cu121),
+# then install these on top:
+#   python -m venv --system-site-packages env/ldm_venv
+#   source env/ldm_venv/bin/activate
+#   pip install -r env/requirements-ldm.txt
+diffusers==0.27.2
+accelerate==0.27.2
+huggingface-hub==0.20.3
+safetensors==0.7.0
+pytorch-fid==0.3.0
+top-pr==0.2.1
